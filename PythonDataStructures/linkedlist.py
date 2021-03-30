@@ -20,3 +20,15 @@ class LinkedList:
 
         temporary_node.next = node
 
+    def add_to_beginning(self, data_inserted_in_beginning):
+        data_inserted = Node(data_inserted_in_beginning)
+        data_inserted.next = self.head
+        self.head = data_inserted
+
+
+
+
+
+
+
+

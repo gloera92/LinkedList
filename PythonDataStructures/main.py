@@ -11,3 +11,5 @@ if __name__ == '__main__':
     linked_list.add_to_beginning(20)
     linked_list.add_to_beginning(30)
 
+    linked_list.contain_node(20)
+

@@ -25,6 +25,27 @@ class LinkedList:
         data_inserted.next = self.head
         self.head = data_inserted
 
+    def contain_node(self, data):
+        temporary_node = self.head
+
+        while temporary_node.data is not data:
+            temporary_node = temporary_node.next
+
+        if temporary_node.data == data:
+            return True
+        else:
+            return False
+
+
+
+
+
+
+
+
+
+
+
 
 
 
